@@ -1,0 +1,5 @@
+com\test\stepDefinition\StepDefinition.class
+com\test\pages\CalculationPage.class
+com\test\utilities\ConfigFileReader.class
+com\test\runner\TestRunnerCucumber.class
+com\test\utilities\HelperClass.class

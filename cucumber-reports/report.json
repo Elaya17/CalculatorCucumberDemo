@@ -1,0 +1,209 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-12-01T11:48:03.237Z",
+        "line": 3,
+        "name": "Verify User able to change the theme",
+        "description": "",
+        "id": "androidapp-calculator-validation;verify-user-able-to-change-the-theme",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11767454800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Launch the app",
+            "match": {
+              "location": "com.test.stepDefinition.StepDefinition.launch_the_app()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1713552500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Click on moreoptions button in the top right corner",
+            "match": {
+              "location": "com.test.stepDefinition.StepDefinition.click_on_moreoptions_button_in_the_top_right_corner()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1187598100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click on choose theme button",
+            "match": {
+              "location": "com.test.stepDefinition.StepDefinition.click_on_choose_them_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2429098000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click on Light button",
+            "match": {
+              "location": "com.test.stepDefinition.StepDefinition.click_on_light_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2248106700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click on OK button",
+            "match": {
+              "location": "com.test.stepDefinition.StepDefinition.click_on_ok_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 611189300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Verify user is in calculation page",
+            "match": {
+              "location": "com.test.stepDefinition.StepDefinition.verify_user_is_in_calculation_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-12-01T11:48:23.285Z",
+        "line": 24,
+        "name": "Verify History section after performing multiplication operation",
+        "description": "",
+        "id": "androidapp-calculator-validation;verify-history-section-after-performing-multiplication-operation;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 11157489500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Enter the value\"6\" in the calculator",
+            "match": {
+              "arguments": [
+                {
+                  "val": "6",
+                  "offset": 16
+                }
+              ],
+              "location": "com.test.stepDefinition.StepDefinition.enter_the_value_in_the_calculator(java.lang.Integer)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1030176500,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Tap on multiplication icon",
+            "match": {
+              "location": "com.test.stepDefinition.StepDefinition.tap_on_multiplication_icon()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1056885900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Tap on digit nine",
+            "match": {
+              "location": "com.test.stepDefinition.StepDefinition.tap_on_digit_nine()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1010947200,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Click on Equal icon",
+            "match": {
+              "location": "com.test.stepDefinition.StepDefinition.click_on_Equal_icon()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2159693800,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Click on moreoptions button in the top right corner",
+            "match": {
+              "location": "com.test.stepDefinition.StepDefinition.click_on_moreoptions_button_in_the_top_right_corner()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1221488000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Click on History button",
+            "match": {
+              "location": "com.test.stepDefinition.StepDefinition.click_on_History_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1174181400,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Verify input and results",
+            "match": {
+              "location": "com.test.stepDefinition.StepDefinition.verify_input_and_results()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3008486400,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Close App",
+            "match": {
+              "location": "com.test.stepDefinition.StepDefinition.close_App()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "AndroidApp Calculator validation",
+    "description": "",
+    "id": "androidapp-calculator-validation",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/calculatorDemo.feature",
+    "tags": []
+  }
+]
